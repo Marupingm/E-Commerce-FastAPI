@@ -113,4 +113,4 @@ async def delete_product(
     # Invalidate products cache
     redis_client.delete("products")
     
-    return None 
+    return None # Modified on 2025-02-20 13:01:09
