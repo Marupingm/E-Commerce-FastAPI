@@ -65,4 +65,4 @@ def get_admin_user(current_user: User = Depends(get_current_active_user)) -> Use
             status_code=status.HTTP_403_FORBIDDEN,
             detail="Not enough permissions"
         )
-    return current_user 
+    return current_user # Modified on 2025-02-20 13:01:05
