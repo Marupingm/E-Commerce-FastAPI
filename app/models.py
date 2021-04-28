@@ -68,4 +68,4 @@ class OrderItem(Base):
     price = Column(Float)  # Price at the time of purchase
 
     order = relationship("Order", back_populates="order_items")
-    product = relationship("Product", back_populates="order_items") 
+    product = relationship("Product", back_populates="order_items") # Modified on 2025-02-20 13:01:06
