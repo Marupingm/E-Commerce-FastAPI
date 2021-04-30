@@ -24,3 +24,4 @@ class Settings(BaseSettings):
         env_file = ".env"
 
 settings = Settings() # Modified on 2025-02-20 13:01:08
+# Modified on 2025-02-20 13:03:21
