@@ -18,4 +18,4 @@ def get_db():
         db.close()
 
 def create_tables():
-    Base.metadata.create_all(bind=engine) 
+    Base.metadata.create_all(bind=engine) # Modified on 2025-02-20 13:01:09
