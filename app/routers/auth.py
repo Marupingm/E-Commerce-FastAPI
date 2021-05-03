@@ -67,4 +67,4 @@ async def login(user_credentials: UserLogin, db: Session = Depends(get_db)):
         "access_token": access_token,
         "refresh_token": refresh_token,
         "token_type": "bearer"
-    } 
+    } # Modified on 2025-02-20 13:01:08
