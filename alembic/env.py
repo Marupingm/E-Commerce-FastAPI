@@ -48,4 +48,4 @@ def run_migrations_online() -> None:
 if context.is_offline_mode():
     run_migrations_offline()
 else:
-    run_migrations_online() 
+    run_migrations_online() # Modified on 2025-02-20 13:01:06
