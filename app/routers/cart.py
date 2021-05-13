@@ -125,4 +125,4 @@ async def update_cart_item(
     cart_item.quantity = quantity
     db.commit()
     
-    return {"message": "Cart item updated successfully"} 
+    return {"message": "Cart item updated successfully"} # Modified on 2025-02-20 13:01:07
