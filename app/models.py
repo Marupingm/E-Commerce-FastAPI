@@ -69,3 +69,4 @@ class OrderItem(Base):
 
     order = relationship("Order", back_populates="order_items")
     product = relationship("Product", back_populates="order_items") # Modified on 2025-02-20 13:01:06
+# Modified on 2025-02-20 13:03:24
